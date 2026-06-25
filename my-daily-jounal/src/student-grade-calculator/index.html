@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks & Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <a href="../index.html" class="back-link">&larr; Back</a>
+    <h1>Student Marks & Grade Calculator</h1>
+    <p>Enter number of subjects to dynamically input marks and calculate total, average, grade, and Pass/Fail result.</p>
+    
+    <input type="number" id="subjects" placeholder="Enter number of subjects" min="1" max="10">
+    <button onclick="calculateResult()">Calculate</button>
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
